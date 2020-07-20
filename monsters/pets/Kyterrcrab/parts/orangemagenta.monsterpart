@@ -1,0 +1,9 @@
+{
+  "name" : "orangemagenta",
+  "category" : "kyterrcrab",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "orangemagenta.png"
+  }
+}

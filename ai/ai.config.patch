@@ -16,5 +16,16 @@
       "portraitFrames": "portraits/saturn2portrait.png",
       "staticFrames": "staticsaturn.png"
     }
-  }
+  },
+{
+		"op" : "add",
+		"path" : "/species/satkyterran",
+		"value" : {
+			"aiFrames" : "kyterranAI.png",
+			"portraitFrames" : "portraits/kyterranportrait.png",
+			"staticFrames" : "statickyterran.png"	
+		}
+	}
+  
+  
 ]

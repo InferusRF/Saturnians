@@ -6,16 +6,26 @@
 "value" : "saturn2"
 },
 
+{ "op" : "add", "path" : "/species/-",
+"value" : "satkyterran"
+},
+
 {
 "op": "add",
 "path": "/defaultCodexes/saturn",
-"value": [ "protectorate1", "protectorate2" ]
+"value": [ "protectorate1", "protectorate2", "saturnfactions" ]
 },
 
 {
 "op": "add",
 "path": "/defaultCodexes/saturn2",
-"value": [ "protectorate1", "protectorate2" ]
+"value": [ "protectorate1", "protectorate2", "saturnfactions" ]
+},
+
+{
+"op": "add",
+"path": "/defaultCodexes/satkyterran",
+"value": [ "protectorate1", "protectorate2", "saturnkyterra" ]
 },
 
 

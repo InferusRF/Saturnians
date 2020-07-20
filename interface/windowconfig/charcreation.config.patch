@@ -1,4 +1,5 @@
 [
 { "op":"add","path":"/speciesOrdering/-","value":"saturn" },
-{ "op":"add","path":"/speciesOrdering/-","value":"saturn2" }
+{ "op":"add","path":"/speciesOrdering/-","value":"saturn2" },
+{ "op":"add","path":"/speciesOrdering/-","value":"satkyterran" }
 ]

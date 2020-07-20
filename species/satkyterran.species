@@ -3,94 +3,51 @@
    "charCreationTooltip" : {
       "title" : "kyterran",
       "subTitle" : "SiO2",
-      "description" : "Antlion-like species that lives in ashlands and deserts. Kyterran cannot be set on fire and are 25% resistant to fire damage. YOU SHOULD NOT SEE THIS INGAME."
+      "description" : "Kyterrans are antlion-like species that lives underground ashlands and deserts. Kyterran cannot be set on fire and are 25% resistant to fire damage."
   },
   
   "humanoidConfig" : "/species/kyta_antlionoid.config",
   
   
   
-  "nameGen" : [ "/species/satkyterrannamegen.config:names", "/species/satkyterrannamegen.config:names" ],
+  "nameGen" : [ "/species/kyterrannamegenmale.config:names", "/species/kyterrannamegenfemale.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/saturnkyta_hurtsfx1.ogg", "/sfx/humanoid/saturnkyta_hurtsfx2.ogg" ],
   "gruntNoises" : [ [ "/sfx/humanoid/saturn_sfx3.ogg", "/sfx/humanoid/saturn_sfx2.ogg.ogg" ], [ "/sfx/humanoid/saturn_sfx1.ogg", "/sfx/humanoid/saturn_sfx1b.ogg"] ],
   "charGenTextLabels" : [ "Primary Color", "Antennae Style", "Shirt", "Pants", "Lens Color", "Alt Color", "Shirt Color", "Pants Color", "KYTERRAN", "Personality" ],
-  "effectDirectives" : "?replace=FEFFFFFF=000001FF?replace=9bd4ffFF=0F9D6CFF?replace=31a6ffFF=40DEB4FF",
+  "effectDirectives" : "?replace=FEFFFFFF=000119FF?replace=9bd4ffFF=0F9D6CFF?replace=31a6ffFF=40DEB4FF?replace=24232FFF=231D0FFF?replace=3D3D51FF=443C1FFF?replace=676F83FF=7F7A42FF?replace=9DA8AFFF=B7B066FF?replace=303030FF=3F3B31FF?replace=555555FF=6D6956FF?replace=808080FF=939380FF?replace=FD8F4DFF=40DEB4FF?replace=FDD14DFF=0F9D6CFF?replace=FFFFFFFF=000119FF",
   
   "statusEffects" : [ "satkyterran_fireblock", "satkyterranRundust" ],   
    
   "defaultBlueprints" : {
     "tier1" : [
 // Empty Hands
-      { "item" : "flagsaturn" },
-	  
-      { "item" : "saturnmannequin" },
+      { "item" : "flagkyterran" },
       { "item" : "saturnwarpgem" },
-	  { "item" : "liquidsaturnnectar" },
-	  { "item" : "saturnMagicCrystalTable" },
-	  { "item" : "saturnMagicLoom" },
-	  
-// Anvil
-      { "item" : "saturnNovMhead" },
-	  { "item" : "saturnNovMchest" },
-	  { "item" : "saturnNovMpants" },
-	  
-      { "item" : "saturnForestMagehead" },
-	  { "item" : "saturnForestMagechest" },
-	  { "item" : "saturnForestMagepants" },
-	  
+// Spinning Wheel
+	  { "item" : "kyterran_mannequin" },
+
+// Weapons
       { "item" : "ironshortsword" },
       { "item" : "ironbroadsword" },
-	  
+
       { "item" : "tungstenaxe" },
       { "item" : "tungstenhammer" },
 	  
-// Anvil2
-      { "item" : "saturnVoidMagehead" },
-	  { "item" : "saturnVoidMagechest" },
-	  { "item" : "saturnVoidMagepants" },
-	  
-      { "item" : "saturnNecromagehead" },
-	  { "item" : "saturnNecromagechest" },
-	  { "item" : "saturnNecromagepants" },
-	  
       { "item" : "titaniumdagger" },
       { "item" : "titaniumspear" },
- 
+
       { "item" : "durasteelbroadsword" },
       { "item" : "durasteelshortsword" },
-	  
-// Anvil3
-//Mage
-      { "item" : "saturntier5mhead" },
-	  { "item" : "saturntier5mchest" },
-	  { "item" : "saturntier5mpants" },
-	  
-      { "item" : "saturnNovaWizardhead" },
-	  { "item" : "saturnNovaWizardchest" },
-	  { "item" : "saturnNovaWizardpants" },	  
-	  
+
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+
       { "item" : "feroziumwand" },
       { "item" : "feroziumstaff" },
 	  
-	  { "item" : "satstaffT1" },	  
-	  { "item" : "satstaffT2" },
-	  { "item" : "satstaffT3" },	 	  
-	  { "item" : "satstaffT4" },	  
-      { "item" : "satstaffT5" },
-      { "item" : "satstaffstar1" },
-	  
-//Warrior
-      { "item" : "saturnkni5head" },
-	  { "item" : "saturnkni5chest" },
-	  { "item" : "saturnkni5pants" },
-	  
-      { "item" : "saturnSolhead" },
-	  { "item" : "saturnSolchest" },
-	  { "item" : "saturnSolpants" },
-	  
       { "item" : "violiumshortsword" },
       { "item" : "violiumbroadsword" },
-	  
+
 	  { "item" : "saturnMaceT1" },	  
 	  { "item" : "saturnMaceT2" },
 	  { "item" : "saturnMaceT3" },	 	  
@@ -98,23 +55,8 @@
 	  { "item" : "saturnMaceT5" },	 	  
 	  { "item" : "saturnMaceT6" },
 	  
-	  { "item" : "SaturnRapier" },	  
-	  { "item" : "SaturnRapier2" },
-	  { "item" : "SaturnRapier3" },	 	  
-	  { "item" : "SaturnRapier4" },
-	  { "item" : "SaturnRapier5" },	 	  
-	  { "item" : "SaturnRapier6" },
-//Ranger
-	  
-      { "item" : "saturnArcherhead" },
-	  { "item" : "saturnArcherchest" },
-	  { "item" : "saturnArcherpants" },
-	  { "item" : "saturnRocSlayerhead" },
-	  { "item" : "saturnRocSlayerchest" },
-	  { "item" : "saturnRocSlayerpants" },
-	  
-      { "item" : "aegisaltpistol" },
-      { "item" : "aegisaltbow" },
+      { "item" : "satstaffT5" },
+      { "item" : "satstaffstar1" },
 	  
 	  { "item" : "SaturnBowT1" },	  
 	  { "item" : "SaturnBowT2" },
@@ -122,22 +64,104 @@
 	  { "item" : "SaturnBowT4" },
 	  { "item" : "SaturnBowT5" },	 	  
 	  { "item" : "SaturnBowT6" },
+	  
+// Armor
+
+      { "item" : "kyterran_tier1head" },
+      { "item" : "kyterran_tier1chest" },
+      { "item" : "kyterran_tier1pants" },
+	  
+      { "item" : "kyterran_tier2head" },
+      { "item" : "kyterran_tier2chest" },
+      { "item" : "kyterran_tier2pants" },
+	  
+      { "item" : "kyterran_tier3head" },
+      { "item" : "kyterran_tier3chest" },
+      { "item" : "kyterran_tier3pants" },
+	  
+      { "item" : "kyterran_tier4head" },
+      { "item" : "kyterran_tier4chest" },
+      { "item" : "kyterran_tier4pants" },
+	  
+// accelerator 
+      { "item" : "kyterran_tier5ahead" },
+      { "item" : "kyterran_tier5achest" },
+      { "item" : "kyterran_tier5apants" },
+	  
+      { "item" : "kyterran_tier6ahead" },
+      { "item" : "kyterran_tier6achest" },
+      { "item" : "kyterran_tier6apants" },
+	  
+// manipulator 
+      { "item" : "kyterran_tier5mhead" },
+      { "item" : "kyterran_tier5mchest" },
+      { "item" : "kyterran_tier5mpants" },
+	  
+      { "item" : "kyterran_tier6mhead" },
+      { "item" : "kyterran_tier6mchest" },
+      { "item" : "kyterran_tier6mpants" },
+	  
+// separator 
+      { "item" : "kyterran_tier5shead" },
+      { "item" : "kyterran_tier5schest" },
+      { "item" : "kyterran_tier5spants" },
+	  
+      { "item" : "kyterran_tier6shead" },
+      { "item" : "kyterran_tier6schest" },
+      { "item" : "kyterran_tier6spants" },
+	  
 // Furniture Table
+      { "item" : "glitchstoragelocker" },
+      { "item" : "glitchshipdoor" },
+      { "item" : "glitchshiphatch" },
+
       { "item" : "saturnbookcase" },
       { "item" : "saturncanvas" },
       { "item" : "saturncrystalball" },
       { "item" : "saturncrystallamp" },
       { "item" : "saturncrystallampOrange" },
+	  
+	  { "item" : "saturncirclesollamp" },
+      { "item" : "saturncirclesollampblue" },
+	  
       { "item" : "saturnebonychair" },
-      { "item" : "saturnebony" },
       { "item" : "saturnebonytable" },
+	  
+	  
       { "item" : "glitchstoragelocker" },
       { "item" : "glitchshipdoor" },
       { "item" : "glitchshiphatch" },
+	  
+      { "item" : "saturnshiplocker" },
+	  
+      { "item" : "saturnshipdoor" },
+      { "item" : "saturnshiphatch" },
+	  
+      { "item" : "saturnshipdoor2" },
+      { "item" : "saturnshiphatch2" },
+	  
+	  { "item" : "saturnicebox2" },
+//Tiles
+	  { "item" : "saturnebony" },
+	  { "item" : "saturnbirch" },
+	  { "item" : "saturnOak" },
+	  { "item" : "saturnMaho" },
+
+	  { "item" : "saturnslopedpanel" },
+	  { "item" : "saturnslopedpanelBirch" },
+	  { "item" : "saturnslopedpanelOak" },
+	  { "item" : "saturnslopedpanelMaho" },	  
+	  
+	  { "item" : "saturncolorfulclaywalls" },
+	  { "item" : "sathomewalls1" },
+	  { "item" : "saturnslopedhomewalls" },	
+	  { "item" : "saturnslopedglass" },
+	  { "item" : "saturnslopedmetalpanel" },	  
+	  { "item" : "saturnslopedbrasspanel" },
+	  { "item" : "saturnslopedstainedglass" },	 
 //Misc Armor	  
       { "item" : "saturnSoldierhead" },
-      { "item" : "saturnSoldierchest" },
-      { "item" : "saturnSoldierpants" },
+
 //Clothes
       { "item" : "saturngoggles" },
       { "item" : "saturngoggles2" },
@@ -151,20 +175,13 @@
 	  { "item" : "saturnglasses2" },
 	  { "item" : "saturnglasses3" },
 	  { "item" : "saturnglasses4" },
-	  { "item" : "saturnProtectoratechest" },
-	  { "item" : "saturnProtectoratepants" },
-	  { "item" : "saturnsmartchest" },
-	  { "item" : "saturnsmartpants" },
-	  { "item" : "saturnmerchantchest" },
-	  { "item" : "saturnmerchantlegs" },
-	  
+
 //1.0.4 stuff
 	  { "item" : "saturnHeavyHood" },
 	  { "item" : "saturnHeavyScarfedHood" },
 	  { "item" : "saturnHeavyFluffhood" },
 	  { "item" : "saturnscarf" },
 	  { "item" : "saturnscarf2" },
-	  
 	  { "item" : "saturnnull" },
 	  { "item" : "saturnnullchest" },
 	  { "item" : "saturnnullpants" },
@@ -172,16 +189,80 @@
 //1.1 stuff
 
 	  { "item" : "saturnNocturneRobehead" },
-	  { "item" : "saturnNocturneRobechest" },
-	  { "item" : "saturnNocturneRobepants" },
-	  
+
+	  { "item" : "saturnNocturneRobeBhead" },
+
 	  { "item" : "saturnornaterobeshead" },
-	  { "item" : "saturnornaterobeschest" },
-	  { "item" : "saturnornaterobespants" },
-	  
-	  { "item" : "saturnVoidmageOldhead" },
+
 	  { "item" : "saturnVoidMageOldchest" },
-	  { "item" : "saturnVoidMageOldpants" },
+	  
+	  { "item" : "saturnlightstaff2" },
+	  { "item" : "saturnfishingwand" },
+	  
+	  { "item" : "saturnFluffScarf" },
+	  { "item" : "saturnFluffScarf2" },
+	  
+//1.1.1
+	  {"item" : "saturnLumothMask"},
+	  {"item" : "saturnVoidMageOldpants"},
+	  {"item" : "saturnRena1chest"},
+	  {"item" : "saturnRobechest"},
+	  {"item" : "saturnnoblelegs"},
+	  {"item" : "saturnFakeProboscis"},
+	  
+//1.1.2
+	  {"item" : "saturntier4headnotevil"},
+
+	  {"item" : "saturnKypteranHelmhead"},
+	  {"item" : "saturnCircletObsidian"},
+	  
+	  {"item" : "saturnBuckledHat"},
+	  {"item" : "saturnShadowhat"},
+	  {"item" : "saturnStarhat2"},
+	  {"item" : "saturnTophat"},
+	  {"item" : "saturnTophat2"},
+	  {"item" : "saturnSunHat"},
+	  {"item" : "saturnWideHat"},
+	  {"item" : "saturnWideShadyHat"},
+	  {"item" : "saturngoggles4"},
+	  
+	  
+//1.2
+
+	  {"item" : "outfitfitter_saturn"},
+	  
+	  {"item" : "saturnArmorTransmog"},
+	 
+	  {"item" : "saturnTophat3"},
+	  {"item" : "saturnSorcererRobeshead"},
+	  {"item" : "saturnWideHatUnrelated"},
+	  
+	  {"item" : "saturnForestMageUnarmoredhead"},
+
+//1.3
+	  {"item" : "saturnianEbonydoor"},
+	  {"item" : "saturnCrown"},
+	  {"item" : "saturnscarf3" },
+	  {"item" : "saturnFurnitureSummoner" },
+	  {"item" : "saturnMagicCrystalTable"},
+	  
+//1.3.2
+	  {"item" : "saturnPartyhat"},
+	  
+	  {"item" : "saturnSolChead"},
+	  {"item" : "saturnSolmechanic"},
+	  {"item" : "saturnSolmechanic2"},
+	  
+	  { "item" : "saturnNocturneRobeChead" },
+
+	  
+	  { "item" : "saturnNocturneRobeDhead" },
+
+	  
+	  { "item" : "saturnNocturneRobeNLhead" },
+	  { "item" : "saturnNocturneRobeBNLhead" },
+	  { "item" : "saturnNocturneRobeCNLhead" },
+	  { "item" : "saturnNocturneRobeDNLhead" },
 	  
 //Dye
       { "item" : "Satcoolgreydye" },
@@ -192,34 +273,25 @@
       { "item" : "Satmaroondye" },
       { "item" : "Satsanddye" },
       { "item" : "Satwarmgreydye" },
-//Wings
-	  {"item" : "saturnWingRegal"},
-	  {"item" : "saturnWingRegalKnight"},
-	  {"item" : "saturnWingLuna"},
- 	  {"item" : "saturnWingLunaB"},
-	  {"item" : "saturnWingSimple"},
-	  {"item" : "saturnWingLeopard"},
-	  {"item" : "saturnWingLeopardB"},
-	  {"item" : "saturnWingLeopardC"},
-	  {"item" : "saturnWingLeopardD"},
-      {"item" : "saturnWingRosy"},
-      {"item" : "saturnWingRosyB"},
-      {"item" : "saturnWingRosyC"},
-      {"item" : "saturnWingRosyD"},
-      {"item" : "saturnWingRosyE"},
-      {"item" : "saturnWingWasp"},
-      {"item" : "saturnWingSpearsmoth"},
-      {"item" : "saturnWingParallelogram"},
-      {"item" : "saturnWingMerchant"},
-      {"item" : "saturnWinglanternstick"},
-      {"item" : "saturnWingIOF"},
-      {"item" : "saturnWingIOM"},
-      {"item" : "saturnWingEternal"},
-      {"item" : "saturnWingSolar"},
-      {"item" : "saturnWingBeeFly"},
-      {"item" : "saturnWingMothron"},
-      {"item" : "saturnWingEnergy"}
 	  
+      { "item" : "Satsundye" },
+      { "item" : "Sattealdye" },	
+	  
+      { "item" : "saturnRegalDye" },
+      { "item" : "saturnLunaDye" },
+      { "item" : "saturnIODye" },
+      { "item" : "saturnLightPinkDye" },
+      { "item" : "saturnVenoDye" },
+      { "item" : "saturnSnowDye" },
+      { "item" : "saturnMidnightDye" },
+      { "item" : "saturnEvolightDye" },
+
+	 
+// Furniture Table
+
+      { "item" : "glitchstoragelocker" },
+      { "item" : "glitchshipdoor" },
+      { "item" : "glitchshiphatch" }
     ]
   },
   "altOptionAsFacialMask" : true,
@@ -233,15 +305,15 @@
       "image" : "/interface/title/male.png",
       "characterImage" : "/interface/title/kyterranmale.png",
 	  
-	  "hair" : [ "Ky1","Ky2", "Ky3", "Ky4", "Ky5", "Ky6", "Ky7", "Ky8", "Ky9", "Ky10", "Ky329", "Ky329b" ],
+	  "hair" : [ "Ky1","Ky2", "Ky3", "Ky4", "Ky5", "Ky6", "Ky7", "Ky8", "Ky9", "Ky10", "Ky329", "Ky329b", "Kynp48" ],
 	  
-	  "shirt" : [ "saturnnullchest" ],
-      "pants" : [ "saturnnullpants" ],
+	  "shirt" : [ "saturnnullchest", "kyterran_robeschest", "kyterran_Protectoratechest" ],
+      "pants" : [ "saturnnullpants", "kyterran_robeslegs", "kyterran_Protectoratelegs"  ],
       "facialHairGroup" : "",
       "facialHair" : [  ],
       "facialMaskGroup" : "kyterranfacetype",
       "facialMask" : [ 
-	  "kyterranBlank", 
+	  "kyterranWhite", 
 	  "kyterranBase", 
 	  "kyterranBlue", 
 	  "kyterranCyan", 
@@ -253,19 +325,7 @@
 	  "kyterranPurple", 
 	  "kyterranRed", 
 	  "kyterranTeal", 
-	  "kyterranShade", 
-	  "visor/kyterranBase", 
-	  "visor/kyterranBlue", 
-	  "visor/kyterranCyan", 
-	  "visor/kyterranGreen", 
-	  "visor/kyterranGrey", 
-	  "visor/kyterranLime", 
-	  "visor/kyterranMagenta", 
-	  "visor/kyterranOrange", 
-	  "visor/kyterranPurple", 
-	  "visor/kyterranRed", 
-	  "visor/kyterranTeal",
-	  "visor/kyterranShade" 	  
+	  "kyterranShade"	  
 	  ]
     },
     {
@@ -273,15 +333,15 @@
       "image" : "/interface/title/female.png",
       "characterImage" : "/interface/title/kyterranfemale.png",
 	  
-	  "hair" : [ "Ky1","Ky2", "Ky3", "Ky4", "Ky5", "Ky6", "Ky7", "Ky8", "Ky9", "Ky10", "Ky329", "Ky329b" ],
+	  "hair" : [ "Ky1","Ky2", "Ky3", "Ky4", "Ky5", "Ky6", "Ky7", "Ky8", "Ky9", "Ky10", "Ky329", "Ky329b", "Kynp48" ],
 	  
-	  "shirt" : [ "saturnnullchest" ],
-      "pants" : [ "saturnnullpants" ],
+	  "shirt" : [ "saturnnullchest", "kyterran_robeschest", "kyterran_Protectoratechest" ],
+      "pants" : [ "saturnnullpants", "kyterran_robeslegs", "kyterran_Protectoratelegs"  ],
       "facialHairGroup" : "",
       "facialHair" : [  ],
       "facialMaskGroup" : "kyterranfacetype",
       "facialMask" : [ 
-	  "kyterranBlank", 
+	  "kyterranWhite", 
 	  "kyterranBase", 
 	  "kyterranBlue", 
 	  "kyterranCyan", 
@@ -293,19 +353,7 @@
 	  "kyterranPurple", 
 	  "kyterranRed", 
 	  "kyterranTeal", 
-	  "kyterranShade", 
-	  "visor/kyterranBase", 
-	  "visor/kyterranBlue", 
-	  "visor/kyterranCyan", 
-	  "visor/kyterranGreen", 
-	  "visor/kyterranGrey", 
-	  "visor/kyterranLime", 
-	  "visor/kyterranMagenta", 
-	  "visor/kyterranOrange", 
-	  "visor/kyterranPurple", 
-	  "visor/kyterranRed", 
-	  "visor/kyterranTeal",
-	  "visor/kyterranShade" 	  
+	  "kyterranShade"	  
 	  ]
     }
   ],
@@ -313,8 +361,17 @@
 { "EFF4F4" : "EFF4F4", "D5E1E2" : "D5E1E2", "A2AEB2" : "A2AEB2", "7E8899" : "7E8899", "F4F0EF" : "EFF4F4", "E2D9D5" : "D5E1E2", "B2A9A2" : "A2AEB2", "99947E" : "7E8899" }, 
 //white
 
+{ "EFF4F4" : "F2F2F2", "D5E1E2" : "CCC9C1", "A2AEB2" : "A2A296", "7E8899" : "797B6D", "F4F0EF" : "F2F2F2", "E2D9D5" : "CCC9C1", "B2A9A2" : "A2A296", "99947E" : "797B6D" }, 
+//ivory
+
+{ "EFF4F4" : "D9D9D9", "D5E1E2" : "9B9B9B", "A2AEB2" : "707475", "7E8899" : "525759", "F4F0EF" : "D9D9D9", "E2D9D5" : "9B9B9B", "B2A9A2" : "707475", "99947E" : "525759" }, 
+//titanium
+
 { "EFF4F4" : "ADADAD", "D5E1E2" : "8C8C8C", "A2AEB2" : "717171", "7E8899" : "515151", "F4F0EF" : "ADADAD", "E2D9D5" : "8C8C8C", "B2A9A2" : "717171", "99947E" : "515151" }, 
 //grey
+
+{ "EFF4F4" : "999999", "D5E1E2" : "7B7B7B", "A2AEB2" : "4B4D4F", "7E8899" : "313235", "F4F0EF" : "999999", "E2D9D5" : "7B7B7B", "B2A9A2" : "4B4D4F", "99947E" : "313235" }, 
+//steel
 
 { "EFF4F4" : "434D5B", "D5E1E2" : "353D49", "A2AEB2" : "272E3A", "7E8899" : "1C212D", "F4F0EF" : "434D5B", "E2D9D5" : "353D49", "B2A9A2" : "272E3A", "99947E" : "1C212D" }, 
 //black
@@ -336,6 +393,15 @@
 
 { "EFF4F4" : "FFECBD", "D5E1E2" : "F2D3A1", "A2AEB2" : "DCBD8B", "7E8899" : "BBA27C", "F4F0EF" : "FFECBD", "E2D9D5" : "F2D3A1", "B2A9A2" : "DCBD8B", "99947E" : "BBA27C" }, 
 //sand
+
+{ "EFF4F4" : "C4B29A", "D5E1E2" : "AB9781", "A2AEB2" : "806C5B", "7E8899" : "685448", "F4F0EF" : "C4B29A", "E2D9D5" : "AB9781", "B2A9A2" : "806C5B", "99947E" : "685448" }, 
+//tan
+
+{ "EFF4F4" : "B09E86", "D5E1E2" : "96826C", "A2AEB2" : "685443", "7E8899" : "4F3B2F", "F4F0EF" : "B09E86", "E2D9D5" : "96826C", "B2A9A2" : "685443", "99947E" : "4F3B2F" }, 
+//dark tan
+
+{ "EFF4F4" : "7F7A74", "D5E1E2" : "605851", "A2AEB2" : "3D3632", "7E8899" : "26221F", "F4F0EF" : "7F7A74", "E2D9D5" : "605851", "B2A9A2" : "3D3632", "99947E" : "26221F" }, 
+//carbon steel
 
 { "EFF4F4" : "E9D3AF", "D5E1E2" : "CAB28C", "A2AEB2" : "AF9771", "7E8899" : "8A775A", "F4F0EF" : "E9D3AF", "E2D9D5" : "CAB28C", "B2A9A2" : "AF9771", "99947E" : "8A775A" }, 
 //lbrown

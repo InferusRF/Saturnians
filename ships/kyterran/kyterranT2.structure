@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "kyterranT2.png",
+      "position" : [8, 11.875],
+      "fullbright" : true
+    },
+    {
+      "image" : "kyterranT2lit.png",
+      "position" : [8, 11.875]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "kyterranT2blocks.png"
+}

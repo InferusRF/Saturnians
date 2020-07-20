@@ -1,0 +1,9 @@
+{
+  "name" : "whiteblue",
+  "category" : "kyterrcrab",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "whiteblue.png"
+  }
+}

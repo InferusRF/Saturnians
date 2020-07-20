@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 4
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "kyterranT4.png",
+      "position" : [11.5, 24.875],
+      "fullbright" : true
+    },
+    {
+      "image" : "kyterranT4lit.png",
+      "position" : [11.5, 24.875]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "kyterranT4blocks.png"
+}

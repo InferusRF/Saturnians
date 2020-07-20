@@ -12,11 +12,9 @@
 { "op" : "add", "path" : "/labels/saturnbow",
 "value" : "Saturnian Light Bow"
 },
-
 { "op" : "add", "path" : "/labels/saturnminigun",
 "value" : "Nocturne Minigun"
 },
-
 { "op" : "add", "path" : "/labels/saturnscythe",
 "value" : "Thaumoth Scythe"
 },
@@ -24,19 +22,15 @@
 { "op" : "add", "path" : "/labels/saturnwand",
 "value" : "Saturnian Wand"
 },
-
 { "op" : "add", "path" : "/labels/saturngenwand",
 "value" : "Random Moth Wand"
 },
-
 { "op" : "add", "path" : "/labels/saturngenwand2",
 "value" : "Random Effect Zone Wand"
 },
-
 { "op" : "add", "path" : "/labels/saturngenbaton",
 "value" : "Random Moth Baton"
 },
-
 { "op" : "add", "path" : "/labels/saturnstaff",
 "value" : "Saturnian Staff"
 },
@@ -63,6 +57,48 @@
 { "op" : "add", "path" : "/labels/saturnsilkitem",
 "value" : "Saturnian Silk"
 },
+//Kyterran stuff-------------~
+//Weapons
+{ "op" : "add", "path" : "/labels/kyterrandrill",
+"value" : "Kyterran Drill"
+},
+{ "op" : "add", "path" : "/labels/kyterranUGS",
+"value" : "Ultra Greatsword"
+},
+{ "op" : "add", "path" : "/labels/kyterranclaw",
+"value" : "Kyterran Claw"
+},
+
+//Armor
+{ "op" : "add", "path" : "/labels/kyterranheadarmour",
+"value" : "Kyterran Head Armour"
+},
+{ "op" : "add", "path" : "/labels/kyterranchestarmour",
+"value" : "Kyterran Chest Armour"
+},
+{ "op" : "add", "path" : "/labels/kyterranlegarmour",
+"value" : "Kyterran Leg Armour"
+},
+
+
+//Clothes
+{ "op" : "add", "path" : "/labels/kyterranheadwear",
+"value" : "Kyterran Headwear"
+},
+
+{ "op" : "add", "path" : "/labels/kyterranchestwear",
+"value" : "Kyterran Chestwear"
+},
+
+{ "op" : "add", "path" : "/labels/kyterranlegclothes",
+"value" : "Kyterran Legwear"
+},
+
+{ "op" : "add", "path" : "/labels/kyterranoutfit",
+"value" : "Kyte. Outfit (Leg slot)"
+},
+
+
 
 // Debug----------~
 { "op" : "add", "path" : "/labels/saturndev",

@@ -27,7 +27,21 @@
 			"/ships/saturn2/saturnt6.structure",
 			"/ships/saturn2/saturnt7.structure",
 			"/ships/saturn2/saturnt8.structure"
-		]}
+		]},
+	{ "op" : "add",
+		"path" : "/speciesShips/satkyterran",
+		"value" : [
+		    "/ships/kyterran/kyterranT0.structure",
+			"/ships/kyterran/kyterranT1.structure",
+			"/ships/kyterran/kyterranT2.structure",
+			"/ships/kyterran/kyterranT3.structure",
+			"/ships/kyterran/kyterranT4.structure",
+			"/ships/kyterran/kyterranT5.structure",
+			"/ships/kyterran/kyterranT6.structure",
+			"/ships/kyterran/kyterranT7.structure",
+			"/ships/kyterran/kyterranT8.structure"
+		]
+	}
 	
 		
 ]

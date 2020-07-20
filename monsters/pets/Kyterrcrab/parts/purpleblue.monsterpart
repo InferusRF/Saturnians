@@ -1,0 +1,9 @@
+{
+  "name" : "purpleblue",
+  "category" : "kyterrcrab",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "purpleblue.png"
+  }
+}

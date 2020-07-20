@@ -1,0 +1,262 @@
+{
+  "itemName" : "kyterran_ultraswordT5",
+  "price" : 750,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Made from the crystals of sky islands, this blade is light for its user, but hits with its expected weight.",
+  "shortdescription" : "Evolight Greatsword",
+  "tooltipKind" : "sword",
+  "category" : "kyterranUGS",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "kyterranweapon", "broadsword", "crystal" ],
+
+  "inventoryIcon" : "kyterran_ultraswordT6.png",
+
+  "animation" : "/items/active/weapons/kyterranultrabroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyterran_ultraswordT6.png"
+  },
+  "animationCustom" : {
+
+    "animatedParts" : {
+      "stateTypes" : {
+        "swoosh" : {
+          "states" : {
+            "flip" : {}
+          }
+        }
+      },
+
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "flip" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/kyterranultrasword/swoosh/<elementalType>swoosh.png",
+                  "offset" : [3.75, 2.75],
+				  "fullbright" : true,
+                  "damageArea" : [[-6.0, -3.5], [-6.0, 0], [-3.5, 2.5], [0, 2.5], [2.5, 0], [2.5, -3.5], [0, -6.0], [-3.5, -6.0]]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "flip" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "offsetRegion" : [-4, -4, 5, 5],
+        "emissionRate" : 70,
+        "particles" : [
+          { "particle" : "rocketsmoke"}
+        ]
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/kyterran_ultra_sword.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_hammer.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "flipSlash" : [ "/sfx/melee/flip_slash.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+
+  "primaryAbility" : {
+    "name" : "Ultra Slash",
+    "type" : "broadswordcombo",
+    "scripts" : ["/items/active/weapons/kyterranultrameleecombo.lua"],
+    "class" : "KyterranultraMeleeCombo",
+
+    "comboSteps" : 3,
+
+    "flashTime" : 0.15,
+    "flashDirectives" : "fade=FFFFFFFF=0.15",
+
+    "swooshOffsetRegions" : [
+      [0.75, 0.0, 4.25, 5.0],
+      [3.0, -0.5, 6.5, 2.0],
+      [1.5, -1.0, 5.5, 1.0]
+    ],
+
+    // cooldown time multiplier for steps after the first, compounded per combo step
+    "comboSpeedFactor" : 0.9,
+
+    "edgeTriggerGrace" : 0.25,
+
+    "fireTime" : 0.8,
+    "baseDps" : 11.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "electricbroadsword",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "timeout" : 0.5
+    },
+
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 20
+      },
+      {
+        "baseDamageFactor" : 0.5,
+        "knockback" : 15
+      },
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 30
+      }
+    ],
+	"stances" : {
+      "idle" : {
+        "armRotation" : 20,
+        "weaponRotation" : 60,
+        "twoHanded" : false,
+		"weaponOffset" : [0, 1.2],
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup1" : {
+        "duration" : 0.2,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+		"weaponAngularVelocity" : 60,
+		"weaponOffset" : [0, 0.5],
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "preslash1" : {
+        "duration" : 0.05,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+		"weaponOffset" : [0, 1],
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire1" : {
+        "duration" : 0.15,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+		"weaponOffset" : [0, 1],
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait1" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "allowRotate" : false,
+		"weaponOffset" : [0, 1],
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup2" : {
+        "duration" : 0.2,
+        "armRotation" : -15,
+        "weaponRotation" : -60,
+		"weaponOffset" : [0, 1],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire2" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+		"weaponOffset" : [0, 1],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "wait2" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+		"weaponOffset" : [0, 1],
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup3" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+        "twoHanded" : true,
+		"weaponOffset" : [0, 1],
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+		"weaponOffset" : [0, 1],
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  "altAbility" : {
+    "name" : "Flip Slash",
+    "type" : "kyterranflipslash",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/flipslash/flipslash.lua"],
+    "class" : "FlipSlash",
+
+    "cooldownTime" : 0.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "electricbroadsword",
+      "statusEffects" : [ ],
+      "baseDamage" : 6,
+      "knockback" : [0, -35],
+      "timeout" : 0.2,
+      "timeoutGroup" : "alt"
+    },
+
+    "flipMovementParameters" : {
+      "collisionPoly" : [ [-2.0, -1.0], [-1.0, -2.0], [1.0, -2.0], [2.0, -1.0], [2.0, 1.0], [1.0, 2.0], [-1.0, 2.0], [-2.0, 1.0] ]
+    },
+
+    "energyUsage" : 60.0,
+    "rotations" : 3,
+    "rotationTime" : 0.2,
+
+    "jumpVelocity" : [15, 20],
+    "jumpDuration" : 0.2,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.2,
+        "armRotation" : 30,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "flip" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

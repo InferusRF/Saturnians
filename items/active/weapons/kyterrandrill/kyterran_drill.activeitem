@@ -1,0 +1,149 @@
+{
+  "itemName" : "kyterran_drill",
+  "price" : 1080,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This old mech drill has been heavily modified for hand use.",
+  "shortdescription" : "Modded Mech Drill",
+  "tooltipKind" : "kyterran_drill",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "drill"],
+
+  "inventoryIcon" : [
+    {"image" : "kyterrandrill.png:1"},
+    {"image" : "kyterrandrill_fullbright.png:1"}
+  ],
+
+  "animation" : "kyterrandrill.animation",
+  "animationParts" : {},
+  "animationCustom" : {},
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/kyterrandrill/kytadrillspearstab.lua"],
+    "class" : "KytaDrillSpearStab",
+	
+    "fireTime" : 1,
+    "baseDps" : 7.5,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 25,
+      "timeoutGroup" : "primary"
+    },
+    "holdDamageMultiplier" : 0.2,
+    "holdDamageConfig" : {
+      "timeoutGroup" : "hold",
+      "timeout" : 0.2
+    },
+    "tileDamage" : 0.5,
+    "tileDamageRate" : 0.15,
+    "damageTileDepth" : 100,
+	
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.75],
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.1,
+        "armRotation" : -110,
+        "weaponRotation" : 20,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.3,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "hold" : {
+		"duration" : 0.4,
+        "armRotation" : -30,
+        "weaponRotation" : -60,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbility" : {
+    "scripts" : ["/items/active/weapons/other/drillspear/drillcharge.lua"],
+    "class" : "DrillCharge",
+	"name" : "High Power Mode",
+
+    "energyUsage" : 20,
+
+    "boostSpeed" : 0,
+    "boostForce" : 0,
+	"knockbackMode" : "aim",
+    "knockback" : 25,
+    "damageTimeout" : 0.2,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "baseDamage" : 2.0
+    },
+
+    "tileDamage" : 0.5,
+    "tileDamageRate" : 0.1,
+    "damageTileDepth" : 100,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.5,
+        "armRotation" : -100,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : -15,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+        "weaponOffset" : [0.0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "winddown" : {
+        "duration" : 0.5,
+        "armRotation" : -85,
+        "weaponRotation" : -5,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/kyterranbuilddrillweapon.lua"
+}

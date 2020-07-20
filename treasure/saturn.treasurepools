@@ -2,7 +2,7 @@
  	"saturnStarterTreasure" : [
 		[0, {
 			"fill" : [
-				{"pool" : "starterTreasure"},
+				{ "pool" : "starterTreasure"},
 				{ "item" : [ "saturnWingSimple2", 1]},
 				{ "item" : [ "saturnlightstaff2", 1]},
 				{ "item" : [ "saturnMaceT0", 1]},
@@ -13,8 +13,6 @@
 				{ "item" : [ "whitedye", 1]},
 				{ "item" : [ "blackdye", 1]},
 				{ "item" : [ "dyeremover", 3]},
-				
-
 				
 				{ "item" : [ "crystal", 5]},
 				{ "item" : [ "petalred", 4]},
@@ -30,7 +28,7 @@
 	 	"saturn2StarterTreasure" : [
 		[0, {
 			"fill" : [
-				{"pool" : "starterTreasure"},
+				{ "pool" : "starterTreasure"},
 				{ "item" : [ "saturnWingSimple2", 1]},
 				{ "item" : [ "saturnlightstaff2", 1]},
 				{ "item" : [ "saturnMaceT0", 1]},
@@ -42,8 +40,6 @@
 				{ "item" : [ "blackdye", 1]},
 				{ "item" : [ "dyeremover", 3]},
 				
-
-				
 				{ "item" : [ "crystal", 5]},
 				{ "item" : [ "petalred", 4]},
 				{ "item" : [ "petalyellow", 4]},
@@ -52,6 +48,22 @@
 				{ "item" : [ "saturnslopedglass", 100]},
 				{ "item" : [ "saturnslopedmetalpanel", 100]}
 			]
+		} ]
+	],
+	 	"kyterranStarterTreasure" : [
+		[0, {
+      "fill" : [
+				{ "pool" : "starterTreasure"},
+				{ "item" : [ "saturnkyteraclawglove", 1 ]},
+				{ "item" : [ "saturnkyteraclawglove", 1 ]},
+				{ "item" : [ "saturnkyterrandagger0", 1 ]},
+				{ "item" : [ "sand2", 100 ]},
+				{ "item" : [ "crystal", 5]},
+				{ "item" : [ "coffeeseed", 1 ]},
+				{ "item" : [ "mocha", 1 ]},
+				{ "item" : [ "saturnslopedglass", 100]},
+				{ "item" : [ "saturnslopedbrasspanel", 100]}
+      ]
 		} ]
 	]
 }

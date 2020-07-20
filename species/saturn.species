@@ -23,15 +23,16 @@
 // Empty Hands
       { "item" : "flagsaturn" },
 	  
-      { "item" : "saturnmannequin" },
-      { "item" : "saturnmannequin2" },
+
       { "item" : "saturnwarpgem" },
 	  { "item" : "liquidsaturnnectar" },
 	  { "item" : "SaturnSilk" },
 	  
 
 	  { "item" : "saturnMagicLoom" },
-
+      { "item" : "saturnmannequin" },
+      { "item" : "saturnmannequin2" },
+	  { "item" : "kyterran_mannequin" },
 	  
 	  
 // Anvil

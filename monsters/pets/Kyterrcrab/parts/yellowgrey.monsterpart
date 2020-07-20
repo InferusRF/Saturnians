@@ -1,0 +1,9 @@
+{
+  "name" : "yellowgrey",
+  "category" : "kyterrcrab",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "yellowgrey.png"
+  }
+}
