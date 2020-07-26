@@ -1,0 +1,83 @@
+{
+  "objectName" : "saturnashroom",
+  "colonyTags" : ["kyterran", "nature"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "seed",
+  "price" : 500,
+  "description" : "A mushroom that grows from ceilings.",
+  "shortdescription" : "Ashroom",
+  "race" : "generic",
+  "tooltipKind" : "seed",
+  "largeImage" : "saturnashroom.png:3",
+  
+  "apexDescription" : "This can be used to collect silk fibre, if you leave it long enough.",
+  "avianDescription" : "I can use this to collect silk fibre.",
+  "floranDescription" : "Sssilly moths, leaving behind preciousss sssilk fibre.",
+  "glitchDescription" : "Proud. Glitch farm moths to make the finest silk.",
+  "humanDescription" : "Isn't it weird that such a fancy material starts with these little moths?",
+  "hylotlDescription" : "Using this I can collect silk fibre to weave into silk cloth, a most luxurious material.",
+  "novakidDescription":  "Silk is a bit fancy for the likes of me, but I can sell it!",
+
+  "inventoryIcon" : "saturnashroomicon.png",
+  "orientations" : [
+    {
+      "image" : "saturnashroom.png:1",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "saturnashroom.png:1",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "saturnashroom.animation",
+  "animationParts" : {
+    "light" : "saturnashroomlit.png",
+    "post" : "saturnashroom.png"
+  },
+
+  "scripts" : [ "/objects/scripts/harvestable.lua" ],
+  "scriptDelta" : 60,
+
+  "activeTimeRange" : [0.7, 1.0],
+  "activeAnimationStates" : {
+    "light" : "on"
+  },
+  "inactiveAnimationStates" : {
+    "light" : "off"
+  },
+
+  "itemDropOffset" : [0.5, 2.5],
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+  "stages" : [
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "saturnlumenHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}
