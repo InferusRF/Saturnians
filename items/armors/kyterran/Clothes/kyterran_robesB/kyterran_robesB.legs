@@ -1,55 +1,18 @@
 {
-  "itemName" : "kyterran_tier3chest",
-  "price" : 3200,
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "kyterran_robesBlegs",
+  "price" : 100,
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "category" : "kyterranchestarmour",
-  "description" : "Tier 3 Chest",
-  "shortdescription" : "Myrmidon Chestplate",
+  "rarity" : "Common",
+  "category" : "kyterranoutfit",
+  "description" : "^#D8AB43;[Kyterran: Legs]^reset;\n Robes like these are sometimes worn with armor.",
+  "shortdescription" : "Myrmeleon ^#0103;^reset;Robes",
   "tooltipKind" : "kyterran_armor",
-
-  "maleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "level" : 3,
-  "leveledStatusEffects" : [
-    {
-      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.25
-    },
-    {
-      "levelFunction" : "standardArmorLevelProtectionMultiplier",
-      "stat" : "protection",
-      "amount" : 0.5
-    },
-    {
-      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
-      "stat" : "maxEnergy",
-      "amount" : 5
-    },
-    {
-      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
-      "stat" : "maxHealth",
-      "amount" : 5
-    }
-  ],
-
-  "itemTags" : [ "tier3armour" ],
-
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
   "colorOptions" : [
-	//SATURNIAN SUN YELLOW 20
-	{ "ffca8a" : "D8AB43", "e0975c" : "C88B28", "a85636" : "8D581C", "6f2919" : "663B14" },
+	//SATURNIAN MAROON 12
+	{ "ffca8a" : "8C5357", "e0975c" : "804247", "a85636" : "5D2730", "6f2919" : "411A24" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY
