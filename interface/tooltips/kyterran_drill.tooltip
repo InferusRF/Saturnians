@@ -18,62 +18,62 @@
   },
   "altAbilityTitleLabel" : {
     "type" : "label",
-    "position" : [9, 43],
+    "position" : [9, 41],
     "hAnchor" : "left",
     "value" : ""
   },
   "altAbilityLabel" : {
     "type" : "label",
-    "position" : [130, 43],
+    "position" : [130, 41],
     "hAnchor" : "right",
     "centered" : true,
     "wrapWidth" : 126
   },
   "speedTitleLabel" : {
     "type" : "label",
-    "position" : [9, 52],
+    "position" : [9, 50],
     "hAnchor" : "left",
     "value" : "Swing Speed:"
   },
   "speedLabel" : {
     "type" : "label",
-    "position" : [130, 52],
+    "position" : [130, 50],
     "hAnchor" : "right",
     "wrapWidth" : 126
   },
   "tileDamageTitleLabel" : {
     "type" : "label",
-    "position" : [9, 79],
+    "position" : [9, 77],
     "hAnchor" : "left",
-    "value" : "Tile Damage:"
+    "value" : "Mining Torque:"
   },
   "tileDamageLabel" : {
     "type" : "label",
-    "position" : [130, 79],
+    "position" : [130, 77],
     "hAnchor" : "right",
     "wrapWidth" : 126
   },
   "tileDamageRateTitleLabel" : {
     "type" : "label",
-    "position" : [9, 70],
+    "position" : [9, 68],
     "hAnchor" : "left",
     "value" : "Mining Speed:"
   },
   "tileDamageRateLabel" : {
     "type" : "label",
-    "position" : [130, 70],
+    "position" : [130, 68],
     "hAnchor" : "right",
     "wrapWidth" : 126
   },
   "damagePerShotTitleLabel" : {
     "type" : "label",
-    "position" : [9, 61],
+    "position" : [9, 59],
     "hAnchor" : "left",
     "value" : "Damage Per Swing:"
   },
   "damagePerShotLabel" : {
     "type" : "label",
-    "position" : [130, 61],
+    "position" : [130, 59],
     "hAnchor" : "right",
     "wrapWidth" : 126
   },

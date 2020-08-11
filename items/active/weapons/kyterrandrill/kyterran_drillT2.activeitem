@@ -1,24 +1,29 @@
 {
-  "itemName" : "kyterran_drill",
+  "itemName" : "kyterran_drillT2",
   "price" : 1080,
-  "level" : 1,
+  "level" : 2,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "This old mech drill has been heavily modified for hand use.",
-  "shortdescription" : "Modded Mech Drill",
+  "description" : "A weaponized mining drill. RPM Boost doubles its mining speed at a high energy cost.",
+  "shortdescription" : "Obsidian Combat Drill",
   "tooltipKind" : "kyterran_drill",
   "category" : "spear",
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "drill"],
 
   "inventoryIcon" : [
-    {"image" : "kyterrandrill.png:1"},
+    {"image" : "kyterrandrillT2.png:1"},
     {"image" : "kyterrandrill_fullbright.png:1"}
   ],
 
   "animation" : "kyterrandrill.animation",
-  "animationParts" : {},
-  "animationCustom" : {},
+  "animationParts" : {
+    "spear" : "kyterrandrillT2.png",
+    "spearfullbright" : "kyterrandrill_fullbright.png",
+    "drillenergy" : "kytadrillenergy.png"
+  },
+  "animationCustom" : {
+},
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
@@ -34,18 +39,18 @@
     "fireTime" : 1,
     "baseDps" : 7.5,
     "damageConfig" : {
-      "damageSourceKind" : "spear",
+      "damageSourceKind" : "sawblade",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
       "knockback" : 25,
       "timeoutGroup" : "primary"
     },
-    "holdDamageMultiplier" : 0.2,
+    "holdDamageMultiplier" : 0.15,
     "holdDamageConfig" : {
       "timeoutGroup" : "hold",
       "timeout" : 0.2
     },
-    "tileDamage" : 0.5,
+    "tileDamage" : 0.75,
     "tileDamageRate" : 0.15,
     "damageTileDepth" : 100,
 	
@@ -100,16 +105,17 @@
     "boostSpeed" : 0,
     "boostForce" : 0,
 	"knockbackMode" : "aim",
-    "knockback" : 25,
+    
     "damageTimeout" : 0.2,
     "damageConfig" : {
-      "damageSourceKind" : "spear",
-      "statusEffects" : [ ],
-      "baseDamage" : 2.0
+      "damageSourceKind" : "sawblade",
+      "statusEffects" : [ {"effect" : "burning", "duration" : 2.5} ],
+	  "knockback" : 25,
+      "baseDamage" : 1
     },
 
-    "tileDamage" : 0.5,
-    "tileDamageRate" : 0.1,
+    "tileDamage" : 0.75,
+    "tileDamageRate" : 0.075,
     "damageTileDepth" : 100,
 
     "stances" : {

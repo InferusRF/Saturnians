@@ -21,7 +21,7 @@
       "damageArea" : [[-1, -1.1], [2.1, -0.6], [2.1, 0.8], [-1, 1.3]]
     }}}}}}},
     "sounds" : {
-      "fire" : [ "/sfx/melee/kyterranclaw.ogg" ]
+      "fire" : [ "/sfx/melee/saturnkyterranclaw.ogg" ]
     }
   },
   "scripts" : [ "fistweapon.lua" ],
