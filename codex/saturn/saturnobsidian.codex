@@ -1,0 +1,21 @@
+{
+	"id" : "saturnobsidian",
+	"title" : "Kyta Obsidian",
+	"description" : "An informative textbook on an exotic kind of obsidian.",
+	"icon" : "saturnbook2.png",
+	"contentPages" : [
+	
+	"A strange type of obsidian, called Kyta obsidian can sometimes form seemingly exclusively around Mt. Kyta. The formation process in not well understood, but Kyta obsidian seems to form large crystal spires deep within the Mt. Kyta region. ",
+	
+	"Kyta obsidian is a jet-black volcanic glass with a fairly high melting point. Despite being a glass, it is not at all brittle, and has flexibility and strength comparable to most metals. Kyta obsidian is famed for its ability to absorb large amounts of light. This light absorption has the curious property of nearly negating the effects of light magic. ",
+	
+	"Kyta obsidian can be used to make strong armor, weapons, and magical items. This obsidian equipment has remained useful even after space trading introduced many new materials. In some cases, space trading has led to Kyta obsidian becoming even more valuable. Alloying the off-world mineral Solarium and Kyta obsidian together creates an exotic glowing glass called Evolight. ",
+
+	"In Kyterran Society, the miners that contend with this volcanic environment are highly respected, often receiving similar praise as knights. "
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 25
+  }
+}

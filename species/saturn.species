@@ -3,7 +3,7 @@
    "charCreationTooltip" : {
       "title" : "Saturnian",
       "subTitle" : "Au",
-      "description" : "Saturnians are light worshiping moth wizards from the far away, sky city Solalei. They have long studied techniques for making light weaving wands. Saturnians yearn to explore the unknown and meet new species."
+      "description" : "Saturnians are light worshiping moth wizards. Saturnians are from Solalei, a massive sky city above a mountainous region on planet Myrasyl, Solakinth system. They have long studied techniques for making light weaving wands. Saturnians yearn to explore the unknown and meet new species."
   },
   
   "nameGen" : [ "/species/saturnnamegenmale.config:names", "/species/saturnnamegenfemale.config:names" ],

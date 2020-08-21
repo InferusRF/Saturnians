@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "kyterranlegarmour",
-  "description" : "The pounding rattle of these greaves will haunt the dreams of your foe.",
-  "shortdescription" : "Doom Lord's Greaves",
+  "description" : "Black greaves worn by the Royal Sun Guard. ",
+  "shortdescription" : "Royal Sun Guard Greaves",
   "tooltipKind" : "kyterran_armor",
 
   "maleFrames" : "pants.png",

@@ -3,7 +3,7 @@
   "price" : 750,
   "level" : 4,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Massive sword used by Kyterran for monster slaying.",
   "shortdescription" : "Ashland Sword",
   "tooltipKind" : "sword",

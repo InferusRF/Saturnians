@@ -3,20 +3,20 @@
   "price" : 750,
   "level" : 5,
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Rare",
   "description" : "Made from the crystals of sky islands, this blade is light for its user, but hits with its expected weight.",
-  "shortdescription" : "Evolight Greatsword",
+  "shortdescription" : "Skygem Greatsword",
   "tooltipKind" : "sword",
   "category" : "kyterranUGS",
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "kyterranweapon", "broadsword", "crystal" ],
 
-  "inventoryIcon" : "kyterran_ultraswordT6.png",
+  "inventoryIcon" : "kyterran_ultraswordT5.png",
 
   "animation" : "/items/active/weapons/kyterranultrabroadsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyterran_ultraswordT6.png"
+    "blade" : "kyterran_ultraswordT5.png"
   },
   "animationCustom" : {
 

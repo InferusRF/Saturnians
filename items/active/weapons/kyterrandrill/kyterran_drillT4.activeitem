@@ -3,7 +3,7 @@
   "price" : 1080,
   "level" : 4,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "This drill lance's higher RPM lets it cut through soils and ash more efficiently.",
   "shortdescription" : "Ash-kyt Drill Lance",
   "tooltipKind" : "kyterran_drill",
@@ -35,14 +35,14 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/kyterrandrill/kytadrillspearstab.lua"],
     "class" : "KytaDrillSpearStab",
-	
+	"energyUsage" : 10,
     "fireTime" : 1,
     "baseDps" : 7.5,
     "damageConfig" : {
       "damageSourceKind" : "sawblade",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
-      "knockback" : 25,
+      "knockback" : 20,
       "timeoutGroup" : "primary"
     },
     "holdDamageMultiplier" : 0.15,
@@ -100,7 +100,7 @@
     "class" : "DrillCharge",
 	"name" : "High Power Mode",
 
-    "energyUsage" : 20,
+    "energyUsage" : 25,
 
     "boostSpeed" : 0,
     "boostForce" : 0,
@@ -110,7 +110,7 @@
     "damageConfig" : {
       "damageSourceKind" : "sawblade",
       "statusEffects" : [ {"effect" : "burning", "duration" : 2.5} ],
-	  "knockback" : 25,
+	  "knockback" : 20,
       "baseDamage" : 1
     },
 

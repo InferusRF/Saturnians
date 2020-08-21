@@ -1,25 +1,25 @@
 {
-  "itemName" : "kyterran_drillT2",
+  "itemName" : "kyterran_drillT6",
   "price" : 1080,
-  "level" : 2,
+  "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "description" : "A weaponized mining drill. RPM Boost doubles its mining speed at a high energy cost.",
-  "shortdescription" : "Obsidian Combat Drill",
+  "shortdescription" : "Evolight Drill Lance",
   "tooltipKind" : "kyterran_drill",
   "category" : "spear",
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "drill"],
 
   "inventoryIcon" : [
-    {"image" : "kyterrandrillT2.png:1"},
+    {"image" : "kyterrandrillT6.png:1"},
     {"image" : "kyterrandrill_fullbright.png:1"}
   ],
 
   "animation" : "kyterrandrill.animation",
   "animationParts" : {
-    "spear" : "kyterrandrillT2.png",
-    "spearfullbright" : "kyterrandrill_fullbright.png",
+    "spear" : "kyterrandrillT6.png",
+    "spearfullbright" : "kyterrandrillT6_fullbright.png",
     "drillenergy" : "kytadrillenergy.png"
   },
   "animationCustom" : {
@@ -50,8 +50,8 @@
       "timeoutGroup" : "hold",
       "timeout" : 0.2
     },
-    "tileDamage" : 0.75,
-    "tileDamageRate" : 0.15,
+    "tileDamage" : 1.5,
+    "tileDamageRate" : 0.1,
     "damageTileDepth" : 100,
 	
     "stances" : {
@@ -114,8 +114,8 @@
       "baseDamage" : 1
     },
 
-    "tileDamage" : 0.75,
-    "tileDamageRate" : 0.075,
+    "tileDamage" : 1.5,
+    "tileDamageRate" : 0.05,
     "damageTileDepth" : 100,
 
     "stances" : {

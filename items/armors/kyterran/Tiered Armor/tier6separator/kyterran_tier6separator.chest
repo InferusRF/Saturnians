@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "kyterranchestarmour",
-  "description" : "Tier 6 Warrior Chest",
-  "shortdescription" : "Doom Lord's Breastplate",
+  "description" : "A rather bulky chestplate emblazened with the city Solalei's emblem.",
+  "shortdescription" : "Royal Sun Guard Chestplate",
   "tooltipKind" : "kyterran_armor",
 
   "maleFrames" : {

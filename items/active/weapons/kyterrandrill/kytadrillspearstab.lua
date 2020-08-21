@@ -11,6 +11,10 @@ function KytaDrillSpearStab:init()
   self.holdDamageConfig.baseDamage = self.holdDamageMultiplier * self.damageConfig.baseDamage
 end
 
+function KytaDrillSpearStab:update(dt, fireMode, shiftHeld)
+  MeleeSlash.update(self, dt, fireMode, shiftHeld)
+
+end
 function KytaDrillSpearStab:fire()
   animator.setAnimationState("drill", "active1")
 
@@ -19,7 +23,8 @@ function KytaDrillSpearStab:fire()
 
   animator.setAnimationState("drill", "idle")
 
-  if self.fireMode == "primary" and self.allowHold ~= false then
+  if self.fireMode == "primary" and self.allowHold ~= false 
+    and not status.resourceLocked("energy") then
     self:setState(self.hold)
   else 
   self.cooldownTimer = self:cooldownTime()
@@ -30,9 +35,10 @@ function KytaDrillSpearStab:hold()
   self.weapon:setStance(self.stances.hold)
   self.weapon:updateAim()
 
+
   animator.setAnimationState("drill", "active1")
 
-  while self.fireMode == "primary" do
+  while self.fireMode == "primary" and status.overConsumeResource("energy", self.energyUsage * self.dt) do
     local damageArea = partDamageArea("spear")
     self.weapon:setDamage(self.holdDamageConfig, damageArea)
 	

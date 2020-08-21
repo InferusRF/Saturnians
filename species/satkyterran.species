@@ -3,16 +3,16 @@
    "charCreationTooltip" : {
       "title" : "kyterran",
       "subTitle" : "SiO2",
-      "description" : "Kyterrans are antlion-like species that lives underground ashlands and deserts. Kyterran cannot be set on fire and are 25% resistant to fire damage."
+      "description" : "Most of these subterranean antlions have kept to themselves until a relatively recent alliance with the Saturnians of Solalei. They live below ashlands, deserts, and mountains on the planet Myrasyl. "
   },
-  
+
   "humanoidConfig" : "/species/kyta_antlionoid.config",
   
   
   
   "nameGen" : [ "/species/kyterrannamegenmale.config:names", "/species/kyterrannamegenfemale.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/saturnkyta_hurtsfx1.ogg", "/sfx/humanoid/saturnkyta_hurtsfx2.ogg" ],
-  "gruntNoises" : [ [ "/sfx/humanoid/saturn_sfx3.ogg", "/sfx/humanoid/saturn_sfx2.ogg.ogg" ], [ "/sfx/humanoid/saturn_sfx1.ogg", "/sfx/humanoid/saturn_sfx1b.ogg"] ],
+  "gruntNoises" : [ [ "/sfx/humanoid/saturn_sfx3.ogg", "/sfx/humanoid/saturn_sfx2.ogg" ], [ "/sfx/humanoid/saturn_sfx1.ogg", "/sfx/humanoid/saturn_sfx1b.ogg"] ],
   "charGenTextLabels" : [ "Primary Color", "Antennae Style", "Shirt", "Pants", "Lens Color", "Alt Color", "Shirt Color", "Pants Color", "KYTERRAN", "Personality" ],
   "effectDirectives" : "?replace=FEFFFFFF=000119FF?replace=9bd4ffFF=0F9D6CFF?replace=31a6ffFF=40DEB4FF?replace=24232FFF=231D0FFF?replace=3D3D51FF=443C1FFF?replace=676F83FF=7F7A42FF?replace=9DA8AFFF=B7B066FF?replace=303030FF=3F3B31FF?replace=555555FF=6D6956FF?replace=808080FF=939380FF?replace=FD8F4DFF=40DEB4FF?replace=FDD14DFF=0F9D6CFF?replace=FFFFFFFF=000119FF",
   

@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "kyterranheadarmour",
-  "description" : "A horned demonic helm, prophetic of doom.",
-  "shortdescription" : "(6s)Doom Lord's Helm",
+  "description" : "An old styled helmet worn by the Royal Sun Guard of Solalei.",
+  "shortdescription" : "Royal Sun Guard Helm",
   "tooltipKind" : "kyterran_armor",
 
   "maleFrames" : "head.png",

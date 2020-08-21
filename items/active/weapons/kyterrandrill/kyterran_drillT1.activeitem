@@ -35,14 +35,14 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/kyterrandrill/kytadrillspearstab.lua"],
     "class" : "KytaDrillSpearStab",
-	
+	"energyUsage" : 10,
     "fireTime" : 1,
     "baseDps" : 7.5,
     "damageConfig" : {
       "damageSourceKind" : "sawblade",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
-      "knockback" : 25,
+      "knockback" : 20,
       "timeoutGroup" : "primary"
     },
     "holdDamageMultiplier" : 0.15,
@@ -100,7 +100,7 @@
     "class" : "DrillCharge",
 	"name" : "RPM Boost",
 
-    "energyUsage" : 20,
+    "energyUsage" : 25,
 
     "boostSpeed" : 0,
     "boostForce" : 0,
@@ -110,7 +110,7 @@
     "damageConfig" : {
       "damageSourceKind" : "sawblade",
       "statusEffects" : [ {"effect" : "burning", "duration" : 2.5} ],
-	  "knockback" : 25,
+	  "knockback" : 20,
       "baseDamage" : 1.01 //because otherwise, it would deal 1 damage at tier 1 for some reason.
     },
 
